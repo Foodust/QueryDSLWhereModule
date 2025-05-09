@@ -1,0 +1,15 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'org.foodust'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.querydsl:querydsl-core:5.0.0' // 버전은 필요에 따라 조정
+    implementation 'org.springframework:spring-context:5.3.30' // @Component 때문에 필요
+}
